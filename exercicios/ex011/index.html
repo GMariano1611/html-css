@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mídias em HTML5</title>
+</head>
+<body>
+    <h1>imagem dinâmica</h1>
+    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente aumente e diminua o tamanho do seu navegador.</p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/Foto-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/Foto-m.png" type="image/png">
+        <img src="Imagens/Foto-g.png" alt="Imagem flexivel">
+    </picture>
+
+    <h1>Reproduzindo Áudios</h1>
+    <p>Vamos aprender a reproduzir Áudios em HTML5.</p>
+    <audio preload="metadata" autoplay controls loop>
+        <source src="midia/colony - tracktribe.mp3" type="audio/mpeg">
+        <p>infelizmente seu navegador não consegue reproduzir áudio. <a href="midia/colony - tracktribe.mp3">clique aqui para baixar o arquivo mp3</a></p> 
+    </audio>
+</body>
+</html>
